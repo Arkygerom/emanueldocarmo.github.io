@@ -1,0 +1,100 @@
+body{
+    background: url(background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 2000px;
+}
+.cabecario{
+    text-align: center;
+    color: #ffae00;
+    font: 4em sans-serif;
+    padding-left: 500px;
+}
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #000018; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffae00;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    justify-content: center;
+    left: 250px;
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+    width: 1500px;
+    padding-left: 350px;
+    padding-right: 250px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  .titulo{
+    font: 2.5em sans-serif;
+    text-align: center;
+    color:  #000018;
+    font-weight: bolder;
+  }
+  .texto{
+    justify-content: center;
+    font: 25px sans-serif;
+    text-align: justify;
+    color:  #000018;
+    font-weight: lighter;
+    font-style: italic;
+    text-shadow: 2px 2px 5px rgb(8, 8, 8);
+    line-height: normal;
+
+  }
+  .texto1{
+    justify-content: center;
+    font: 25px sans-serif;
+    text-align: center;
+    color:  #ffffff;
+    font-weight: lighter;
+    font-style: italic;
+    text-shadow: 2px 2px 5px rgb(8, 8, 8);
+    line-height: normal;
+
+  }
+  .subtitulo{
+    font: 1em sans-serif;
+    text-align: center;
+    color: #ffae00;
+    text-shadow: 2px 2px 5px rgb(8, 8, 8);
+  }
+  .subtitulo1{
+    font: 0.8em sans-serif;
+    text-align: justify;
+    color: #ffae00;
+    text-shadow: 2px 2px 5px rgb(8, 8, 8);
+  }
+  .form{
+    font: 0.65em sans-serif;
+    text-align: justify;
+  }
